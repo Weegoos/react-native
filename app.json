@@ -8,6 +8,26 @@
       "expo-router"
     ],
     "name": "react_native",
-    "slug": "react_native"
+    "slug": "react_native",
+    "android": {
+      "package": "com.anonymous.react_native",
+      "runtimeVersion": "1.0.0"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "717bdc42-2902-46d6-b6f2-b41a79265812"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/717bdc42-2902-46d6-b6f2-b41a79265812"
+    },
+    "ios": {
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    }
   }
 }
